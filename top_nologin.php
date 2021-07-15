@@ -13,8 +13,8 @@
   <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-brand">Top Page</div><br>
-    <div class="navbar-header"><a class="navbar-brand" href="select2.php">ブックマーク一覧</a></div>
-    <div class="navbar-header"><a class="navbar-brand" href="index2.php">ブックマーク登録</a></div>
+    <div class="navbar-header"><a class="navbar-brand" href="select2.php">耳寄り情報一覧</a></div>
+    <div class="navbar-header"><a class="navbar-brand" href="index2.php">耳寄り情報登録</a></div>
     <div class="navbar-header"><a class="navbar-brand" href="login2.php">ログイン</a></div>
   </div>
   </nav>

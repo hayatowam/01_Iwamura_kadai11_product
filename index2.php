@@ -35,8 +35,8 @@ $kanri_flg = $_SESSION['kanri_flg'];
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
-        <div class="title">ブックマークアプリ</div>
-        <div class="page_title">ブックマーク登録ページ</div>
+        <div class="title">トラックドライバーコミュニティアプリ</div>
+        <div class="page_title">耳寄り情報登録ページ</div>
         <div class="logi_name" >
           ログイン者：
           <?php if ($kanri_flg == null ) { ?>
@@ -45,7 +45,7 @@ $kanri_flg = $_SESSION['kanri_flg'];
               <?= $user_name ?>
             <?php }?>   
         </div>  
-        <a class="navbar-brand" href="select2.php">ブックマークデータ一覧</a>
+        <a class="navbar-brand" href="select2.php">耳寄り情報データ一覧</a>
         <?php if ($kanri_flg == 1 ) { ?>
             <a class="navbar-brand" href="user_index2.php">ユーザー登録</a>
             <a class="navbar-brand" href="select_user.php">ユーザー一覧</a>
@@ -64,9 +64,10 @@ $kanri_flg = $_SESSION['kanri_flg'];
 <!-- // <form method="どんな方法で" action="どこに"> -->
   <div class="jumbotron">
    <fieldset>
-    <legend>本のブックマーク</legend>
+    <legend>耳寄り情報</legend>
     
-     <label>本のタイトル：<input type="text" name="name"></label><br>
+     <label>タイトル：<input type="text" name="name"></label><br>
+    <label>場所：<textArea name="place" rows="4" cols="40"></textArea></label><br>
     <label>コメント：<textArea name="comment" rows="4" cols="40"></textArea></label><br>
      <label>評価：
       <select id="list" name="rate">

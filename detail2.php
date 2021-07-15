@@ -52,7 +52,7 @@ if ($status == false) {
     <!-- // <form method="どんな方法で" action="どこに"> -->
     <div class="jumbotron">
     <fieldset>
-        <legend>本のブックマーク</legend>
+        <legend>情報一覧</legend>
         <label>本のタイトル：<input type="text" name="name" value="<?= $result['name'] ?>"></label><br>
         <!-- ↓テキストエリアの場合はvalue=の形にしない  -->
         <label>コメント：<textArea name="comment" rows="4" cols="40"><?= $result['comment'] ?></textArea></label><br>

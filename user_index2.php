@@ -36,7 +36,7 @@ $kanri_flg = $_SESSION['kanri_flg'];
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
-        <div class="title">ブックマークアプリ</div>
+        <div class="title">トラックドライバーコミュニティアプリ</div>
         <div class="page_title">ユーザー登録ページ</div>
         <div class="logi_name" >
           ログイン者：
@@ -46,8 +46,8 @@ $kanri_flg = $_SESSION['kanri_flg'];
               <?= $user_name ?>
             <?php }?>   
         </div>  
-        <a class="navbar-brand" href="index2.php">ブックマークデータ登録</a>
-        <a class="navbar-brand" href="select2.php">ブックマークデータ一覧</a>
+        <a class="navbar-brand" href="index2.php">耳寄り情報登録</a>
+        <a class="navbar-brand" href="select2.php">耳寄り情報一覧</a>
         <?php if ($kanri_flg == 1 ) { ?>
             <!-- <a class="navbar-brand" href="user_index2.php">ユーザー登録</a>ここを追記 -->
             <a class="navbar-brand" href="select_user.php">ユーザー一覧</a><!-- ここを追記 -->
